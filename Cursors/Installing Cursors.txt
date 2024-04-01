@@ -1,0 +1,4 @@
+If the cursor is archived, extract it first.
+Put the contents of the cursor theme into a folder.
+Put the folder into /usr/share/icons or ~/.icons.
+The cursor should be installed now.
