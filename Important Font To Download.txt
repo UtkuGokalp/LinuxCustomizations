@@ -1,0 +1,1 @@
+ttf-droid is a font developed by Google that includes (almost?) all the characters you might need and therefore should be installed on your machine. Arch pacman has a repository for it.
