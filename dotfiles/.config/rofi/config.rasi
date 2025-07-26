@@ -1,0 +1,9 @@
+configuration {
+	display-drun: "Apps";
+	drun-display-format: "{icon} {name}";
+	modi: "drun";
+	show-icons: true;
+	icon-theme: "Papirus";
+}
+
+@theme "/home/ugklp/.config/rofi/themes/rounded-gray-dark.rasi"
