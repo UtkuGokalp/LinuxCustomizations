@@ -5,11 +5,11 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-# If exa is installed, use it, otherwise fallback to ls
+# If exa is installed, use it; otherwise fallback to ls
 if command -v exa >/dev/null 2>&1; then
     alias ls='exa -lAh --group-directories-first --sort=name'
 else
-    alias ls='ls -lAh --group-directories-first --sort=name'
+    alias ls='echo "WARNING: exa not found, falling back to ls" && ls -lAh --group-directories-first --sort=name'
 fi
 
 alias grep='grep --color=auto'
