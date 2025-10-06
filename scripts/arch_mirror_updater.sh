@@ -1,2 +1,1 @@
-sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist
-sudo pacman -Syyu
+sudo reflector --latest 20 --protocol https --sort rate --save /etc/pacman.d/mirrorlist && sudo pacman -Syyu
