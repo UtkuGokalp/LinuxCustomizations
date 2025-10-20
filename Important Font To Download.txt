@@ -1,1 +1,2 @@
 ttf-droid is a font developed by Google that includes (almost?) all the characters you might need and therefore should be installed on your machine. Arch pacman has a repository for it.
+For emojis, Noto Font family can be used. For Ubuntu, it can be installed via sudo apt install fonts-noto.
