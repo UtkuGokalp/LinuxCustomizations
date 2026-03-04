@@ -302,6 +302,7 @@
       <action name="Execute">
         <command>gnome-terminal</command>
       </action>
+      <action name="Raise"/>
     </keybind>
   </keyboard>
   <mouse>
